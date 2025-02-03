@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 5px;
+
+   
+}
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    letter-spacing:0cm;
+    margin-left: 14px;
+    letter-spacing: -2px;
+}
+.navItems{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-size: small;
+  
+}
+.navItems li{
+    margin-top: 9px;
+    padding: 5px; 
+    
+}
+.menuBar{
+    margin-top: 0;
+    background-color: black;
+    color: white;
+    z-index: 1;
+    height: 100vh;
+    width: 100vh;
+}
+.menu {
+ 
+   
+    display: inline-block;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+
+  @media all and (max-width:768px){
+    .list{
+        display: none;
+        
+    }
+  
+  }
+
+
+  .hidden{
+    display: none;
+  }
+
+  .main-text{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:bolder;
+    font-size: 6.5rem;
+    
+  }
+  .main-text h1 {
+    letter-spacing: -14px;
+    line-height: 170px;
+  }
+
+  @media (max-width:786px){
+    .main-text h1{
+        font-size: 10rem;
+    }
+    .image{
+        height: 50vh;
+    }
+  }
+  @media (max-width:630px){
+    .main-text h1{
+        font-size: 5rem;
+    }
+    .image{
+              height: 5ovh;
+    }
+  } 
+  .image {
+    background-image: url('/images/img.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center; /* Centers the image */
+    height: 90vh; /* Sets the height of the container to 60% of the viewport height */
+    margin: 0 25px; /* Removes any default margin */
+   
+    border-radius: 7px;
+  }
+  .goods{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 16px;
+    padding: 10px;
+    margin-top: 70px;
+  }
+ 
+  .card1{
+    width: 33.3vw;
+  height: 110vh; /* or any height you need */
+  background-image: url('/images/flexible-young-player-hitting-ball.jpg');
+  background-size: cover; /* Ensures the image covers the entire parent */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /
+
+    
+  }
+   .card{
+    display: flex;
+    margin-top: 50px;
+   }
+  
+  .card2{
+    height: 110vh;
+    width: 33.3vw;
+    background-image: url(/images/front-view-athletic-handsome-rugby-player-holding-ball.jpg);
+    background-size: cover; /* Ensures the image covers the entire parent */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; 
+  }
+  .card3{
+    height: 110vh;
+    width: 33.3vw;
+    background-image: url(/images/laura-chouette-W-4nCz6s-gE-unsplash.jpg);
+    background-size: cover; /* Ensures the image covers the entire parent */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /
+  }
+  .text-1{
+    margin-top: 70px;
+    height: 40vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+  }
+  .text-1 h1{
+    letter-spacing: -6.5px;
+    line-height: 75px;
+    font-weight:500;
+    font-size: 5rem;
+   
+  }
+  .text-1 p {
+    font-weight: 100;
+    font-size: 1.3rem;
+  }
+  .circle{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    align-items: center;
+  }
+  .circle1{
+    background-color: rgb(230, 159, 67);
+    border-radius: 50%;
+    border: 6px solid peachpuff;
+   height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .circle2{
+    background-color:rgb(230, 159, 67);
+    border-radius: 50%;
+    border: 6px solid peachpuff;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .product{
+    margin-top: 100px;
+    height: 100vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .product img{
+    height: 100%;
+    /* width: 100%;  */
+  object-fit: fi;
+    background-size: cover; /* Ensures the image covers the entire parent */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; 
+ 
+  }
+  .text-para{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 100px;
+  }
+  .multi-heading{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+  }
+
